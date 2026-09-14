@@ -1,7 +1,7 @@
-FROM python:3.14.7-slim
+FROM python:3.11-slim
 
 WORKDIR /app
 
 COPY auditor.py .
 
-CMD ["pyton", "auditor.py"]
+CMD ["python", "auditor.py"]
